@@ -1,0 +1,29 @@
+[
+    {
+        "image":"../source/1.jpg",
+        "audio":"../source/这一生关于你的风景 - 枯木逢春.mp3",
+        "song":"这一生关于你的风景",
+        "singer":"枯木逢春",
+        "name":"枯木逢春",
+        "duration":255,
+        "isLike":false
+    },
+    {
+        "image":"../source/2.jpg",
+        "audio":"../source/有可能的夜晚 - 颜人中.mp3",
+        "song":"有可能的夜晚",
+        "singer":"颜人中",
+        "name":"曾轶可",
+        "duration":276,
+        "isLike":true
+    },
+    {
+        "image":"../source/3.jpg",
+        "audio":"../source/需要人陪.mp3",
+        "song":"需要人陪",
+        "singer":"王力宏",
+        "name":"王力宏",
+        "duration":249,
+        "isLike":true
+    }
+]

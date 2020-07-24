@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(ellipse, #000000, #aaa);
+  position: relative;
+}
+.wrapper .img {
+  width: 50%;
+  padding-top: 20%;
+  position: relative;
+  margin: 0 auto;
+}
+.wrapper .img img {
+  width: 100%;
+  height: 100%;
+}
+.wrapper .info {
+  width: 100%;
+  text-align: center;
+  height: 126px;
+  margin-top: 40px;
+}
+.wrapper .info .songName {
+  font-size: 24px;
+  line-height: 36px;
+  color: #827878;
+  margin-bottom: 8px;
+}
+.wrapper .info .name {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 6px;
+  color: rgba(130, 120, 120, 0.8);
+}
+.wrapper .info .name :first-child {
+  margin: 10px 0;
+}
+.wrapper .pro {
+  display: flex;
+}
+.wrapper .pro .firstTime,
+.wrapper .pro .lastTime {
+  color: #fff;
+  width: 60px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.wrapper .pro .firstTime {
+  margin-left: 15px;
+}
+.wrapper .pro .lastTime {
+  margin-right: 4px;
+}
+.wrapper .pro .pro-wrapper {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.wrapper .pro .pro-wrapper .bottom,
+.wrapper .pro .pro-wrapper .top {
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 20px;
+}
+.wrapper .pro .pro-wrapper .bottom {
+  background-color: #fff;
+}
+.wrapper .pro .pro-wrapper .top {
+  background-color: #4c4c4c;
+}
+.wrapper .pro .pro-wrapper .top ::before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  top: -3px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.wrapper .control {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 60px;
+  display: flex;
+}
+.wrapper .control .like {
+  background: url("../images/空心.png");
+}
+.wrapper .control .like.liking {
+  background: url("../images/实心.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 28px,28px;
+}
+.wrapper .control .left {
+  background: url("../images/后退.png");
+}
+.wrapper .control .cur {
+  background: url("../images/暂停.png");
+}
+.wrapper .control .cur.pause {
+  background: url("../images/播放.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 25px,25px;
+}
+.wrapper .control .right {
+  background: url("../images/前进.png");
+}
+.wrapper .control .list {
+  background: url("../images/播放列表.png");
+}
+.wrapper .control .btn {
+  flex: 1;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 25px,25px;
+}
+.wrapper .news {
+  background-color: #a0a0a0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: none;
+}
+.wrapper .news .ding {
+  font-size: 18px;
+}
+.wrapper .news .ding span {
+  padding-left: 190px;
+}
+.wrapper .news ul > li {
+  position: relative;
+  width: 80%;
+  height: 30%;
+  margin: 10px 40px;
+}
+.wrapper .news ul > li span {
+  font-size: 14px;
+}
+.wrapper .news ul > li img {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: 20px;
+}
